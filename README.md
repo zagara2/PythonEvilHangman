@@ -12,28 +12,40 @@ From the Computer's Viewpoint -
 
 The output below has print-debugging enabled that shows how the computer is "playing" a game of clever-hangman. The secret word is shown before each guess the human player makes. The number of words that could be the secret word is also shown. The human player doesn't know the secret word, she's trying to guess it.
 
-When the game starts, the computer pick a word at random as the secret word, in this case the word curries has been chosen. The player has no misses and no letters of the secret word are shown. Since print-debugging is on, the computer displays the secret word and the number of possibilities for the secret word -- in this case all 7,359 seven-letter words in the computer's lexicon are possible. In the output below the italicized lines would normally not be printed as part of the game
+When the game starts, the computer pick a word at random as the secret word, in this case the word curries has been chosen. The player has no misses and no letters of the secret word are shown. Since print-debugging is on, the computer displays the secret word and the number of possibilities for the secret word -- in this case all 7,359 seven-letter words in the computer's lexicon are possible. In the output below the italicized lines (secret word and # of words possible) would normally not be printed as part of the game
 
 Welcome to (Snarky) Hangman:
 
 `(secret word: curries ) # words possible:  7359
+
 Progress:  _ _ _ _ _ _ _
+
 letters missed: 
+
 guess a letter:  i
+
 i  not in secret word`
 
 
-(secret word: tresses ) # words possible:  4048
-Progress:  _ _ _ _ _ _ _
-letters missed:  i
-guess a letter:  e
-you guessed a letter correctly!
+`(secret word: tresses ) # words possible:  4048
 
-(secret word: waffles ) # words possible:  969
-Progress:  _ _ _ _ _ e _
+Progress:  _ _ _ _ _ _ _
+
 letters missed:  i
+
+guess a letter:  e
+
+you guessed a letter correctly!`
+
+`(secret word: waffles ) # words possible:  969
+
+Progress:  _ _ _ _ _ e _
+
+letters missed:  i
+
 guess a letter:  a
-a  not in secret word
+
+a  not in secret word`
 
 (secret word: toppled ) # words possible:  455
 Progress:  _ _ _ _ _ e _

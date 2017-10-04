@@ -16,15 +16,11 @@ When the game starts, the computer pick a word at random as the secret word, in 
 
 Welcome to (Snarky) Hangman:
 
-(secret word: curries ) # words possible:  7359
-
+`(secret word: curries ) # words possible:  7359
 Progress:  _ _ _ _ _ _ _
-
 letters missed: 
-
 guess a letter:  i
-
-i  not in secret word
+i  not in secret word`
 
 
 (secret word: tresses ) # words possible:  4048

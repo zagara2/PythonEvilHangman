@@ -14,8 +14,8 @@ The output below has print-debugging enabled that shows how the computer is "pla
 
 When the game starts, the computer pick a word at random as the secret word, in this case the word curries has been chosen. The player has no misses and no letters of the secret word are shown. Since print-debugging is on, the computer displays the secret word and the number of possibilities for the secret word -- in this case all 7,359 seven-letter words in the computer's lexicon are possible. In the output below the italicized lines (secret word and # of words possible) would normally not be printed as part of the game.
 
-![Example Pic 1][instructions1.JPG]
-![Example Pic 1][instructions2.JPG]
+![Example Pic 1](instructions1.JPG)
+![Example Pic 2](instructions2.JPG)
 
 Although the user guesses 'i', which is in the computer's secret word, the computer switches secret words so that 'i' is not in the word, and the user has one miss.
 As the game progresses the user is shown guessing a letter in the secret word, but for the first time on the third guess --- the secret word waffles is the letter revealed as part of the word.
